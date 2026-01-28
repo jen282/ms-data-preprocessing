@@ -1,7 +1,7 @@
 import cv2 as cv
 import sys
 
-img = cv.imread('./opencv/Ch.01/soccer.jpg')
+img = cv.imread('./opencv/Ch.01/soccer.jpg', 1)
 
 if img is None:
     sys.exit('File Not Found')
